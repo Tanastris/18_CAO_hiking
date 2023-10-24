@@ -1,0 +1,84 @@
+html {
+  --blue: #1877f2;
+  --white: #fff;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.blue {
+  color: var(--blue);
+}
+.white {
+  color: var(--white);
+}
+.ttu {
+  text-transform: uppercase;
+}
+p {
+  line-height: 200%;
+}
+/* header------------------------------------ */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 4rem;
+  padding-right: 3rem;
+  height: 8rem;
+}
+h1 {
+  font-size: 2.5rem;
+}
+nav {
+  display: none;
+}
+nav ul {
+  display: flex;
+  gap: 1rem;
+}
+.nav-link {
+  font-size: 1.5rem;
+}
+.social > i {
+  font-size: 2.5rem;
+  padding-left: 1rem;
+}
+/* /header------------------------------------ */
+/* main */
+/* contexpl section */
+.contexpl {
+  height: 100vh;
+  background-color: var(--blue);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  text-align: center;
+  padding: 5rem;
+}
+.contexpl h2 {
+  font-size: 5rem;
+  font-weight: 300;
+  letter-spacing: 0.7rem;
+}
+.contexpl p {
+  font-size: 1.5rem;
+}
+.contexpl-btn {
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  background-color: var(--blue);
+  border: 1px solid #0254be;
+  box-shadow: 0px 0px 3px 1px #0254be;
+  border-radius: 0.5rem;
+  transition: all 0.2s;
+}
+.contexpl-btn:hover {
+  background-color: var(--white);
+  color: var(--blue);
+}
+/* /contexpl section */
+
+/* /main */
