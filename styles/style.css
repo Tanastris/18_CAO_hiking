@@ -15,7 +15,11 @@ body {
 .ttu {
   text-transform: uppercase;
 }
+.container {
+  margin-bottom: 6rem;
+}
 p {
+  font-size: 1.5rem;
   line-height: 150%;
 }
 /* header------------------------------------ */
@@ -64,7 +68,6 @@ nav ul {
   letter-spacing: 0.7rem;
 }
 .contexpl p {
-  font-size: 1.5rem;
   line-height: 200%;
 }
 .contexpl-btn {
@@ -81,5 +84,43 @@ nav ul {
   color: var(--blue);
 }
 /* /contexpl section */
+
+/* about us-------------------------------- */
+
+h3 {
+  font-size: 3.5rem;
+  letter-spacing: 0.7rem;
+  font-weight: normal;
+  text-align: center;
+  margin-bottom: 6rem;
+}
+.about-us-div {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+h4 {
+  font-size: 2.2rem;
+  font-weight: normal;
+  padding: 0.5rem 0;
+}
+.about-us-photo {
+  margin-bottom: 2rem;
+}
+.about-us-text > * {
+  margin-bottom: 1rem;
+}
+.about-us-text p {
+  font-size: 1.2rem;
+}
+.about-us-text a {
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: color 0.1s;
+}
+.about-us-text a:hover {
+  color: blue;
+}
+/* /about us-------------------------------- */
 
 /* /main */
